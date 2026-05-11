@@ -103,3 +103,6 @@ include = ["scratchattach*"]
 
 [dependency-groups]
 dev = ["ruff>=0.15.12"]
+
+[tool.vercel.entrypoint]
+app = ["scratchattach/__main__.py"]
